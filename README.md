@@ -1,4 +1,4 @@
-# TerraField Farms — Web (React + Vite)
+# TerraField Farms: Web (React + Vite)
 
 TerraField Farms is a modern marketing/operations website built with **React** and **Vite**, styled with a **custom CSS design system** (no Tailwind required).
 
