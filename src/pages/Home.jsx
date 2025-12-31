@@ -16,6 +16,7 @@ const Home = () => {
            src="https://images.unsplash.com/photo-1472141521881-95d0e87e2e39?q=80&w=2600&auto=format&fit=crop" 
            alt="Green Farm Field" 
            className="hero-bg"
+           style={{filter: 'brightness(0.4)',backdropFilter: 'blur(10px)', mixBlendMode: 'multiply'}} 
         />
         
         <div className="container hero-content">

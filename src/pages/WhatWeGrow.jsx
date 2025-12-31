@@ -80,11 +80,11 @@ const WhatWeGrow = () => {
   return (
     <>
       {/* Hero */}
-      <div className="hero locations-hero" style={{minHeight: '500px', background: '#11291D'}}>
-         <img src="https://images.unsplash.com/photo-1625246333195-58f21a012229?q=80&w=2600&auto=format&fit=crop" className="hero-bg" alt="What We Grow Hero" />
+      <div className="hero locations-hero" style={{minHeight: '450px', background: '#11291D'}}>
+         <img src="https://images.unsplash.com/photo-1559884743-74a57598c6c7?q=80&w=2600&auto=format&fit=crop" className="hero-bg" alt="What We Grow Hero" style={{filter: 'brightness(0.4)'}} />
          <div className="container hero-content" style={{alignItems: 'center', textAlign: 'center'}}>
-            <h1 className="text-white" style={{fontSize: '4.5rem', fontWeight: '800', marginBottom: '1rem', letterSpacing: '-0.02em'}}>What We Grow</h1>
-            <p className="text-white" style={{fontSize: '1.25rem', maxWidth: '700px', margin: '0 auto', opacity: '0.95', fontWeight: '500'}}>
+            <h1 className="text-white" style={{fontSize: '3.5rem', fontWeight: '700', marginBottom: '1rem', letterSpacing: '-0.03em'}}>What We Grow</h1>
+            <p className="text-white" style={{fontSize: '1.25rem', maxWidth: '700px', margin: '0 auto', opacity: '0.9', fontWeight: '400'}}>
                Cultivating Excellence from Nigerian Soil.
             </p>
          </div>
