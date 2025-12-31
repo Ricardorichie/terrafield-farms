@@ -144,7 +144,6 @@ p { color: var(--color-text-body); margin-bottom: 1rem; }
   display: flex; 
   align-items: center; 
   gap: 0.5rem; 
-  margin-right: auto; /* Push nav to the right or create space */
 }
 .navbar-nav { 
   display: none; 

@@ -37,6 +37,10 @@ const Navbar = () => {
                 {link.name}
              </NavLink>
           ))}
+        </div>
+
+        {/* Desktop Actions */}
+        <div className="navbar-actions">
           <Link to="/contact" className="btn btn-primary" style={{padding: '0.6rem 1.5rem'}}>
             Contact Us
           </Link>
