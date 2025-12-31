@@ -1,16 +1,31 @@
-# React + Vite
+# TerraField Farms — Web (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TerraField Farms is a modern marketing/operations website built with **React** and **Vite**, styled with a **custom CSS design system** (no Tailwind required).
 
-Currently, two official plugins are available:
+The UI is component-based (Sections, Cards, Buttons) with page-specific layouts for:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- What We Grow (crop portfolio + quality promise) :contentReference[oaicite:2]{index=2}
+- Locations (national expansion + Akure HQ card + upcoming hubs) :contentReference[oaicite:3]{index=3}
+- Partnerships (wholesale / distribution / land partner / export) :contentReference[oaicite:4]{index=4}
+- Farm Plan / Roadmap (4-phase timeline + milestones + vision map) :contentReference[oaicite:5]{index=5}
+- Projections (growth KPIs + chart + assumptions) :contentReference[oaicite:6]{index=6}
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React + Vite** (fast dev server + HMR) :contentReference[oaicite:7]{index=7}
+- **React Router** for routing between pages
+- **Lucide React** icons (e.g., MapPin, Download, TrendingUp)
+- **Recharts** for the projections line chart
+- **Custom CSS Design System** in `index.css` (colors, layout, components, page styles) :contentReference[oaicite:11]{index=11}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting Started
+
+### 1) Install dependencies
+
+```bash
+npm install
+```
